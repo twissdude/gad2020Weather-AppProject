@@ -1,0 +1,65 @@
+{
+  "name": "Weather App",
+  "short_name": "WeatherApp",
+  "start_url": "/",
+  "purpose": "any maskable",
+  "icons": [
+    {
+      "src": "/favicon/logo72.png",
+      "sizes": "72x72",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/logo96.png",
+      "sizes": "96x96",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/logo128.png",
+      "sizes": "128x128",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/logo144.png",
+      "sizes": "144x144",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/logo152.png",
+      "sizes": "152x152",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/logo384.png",
+      "sizes": "384x384",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/logo1.png",
+      "sizes": "16x16",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "purpose": "any maskable",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
