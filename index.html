@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Search any places of the world for weather update."
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/logo2.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="150x150"
+      href="/favicon/mstile-150x150.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/logo1-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-cover">
+      <div class="title">
+        <p>Weather Information</p>
+      </div>
+      <header>
+        <input
+          type="text"
+          autocomplete="off"
+          class="search-box"
+          name="Search"
+          placeholder="Search for a place..."
+        />
+      </header>
+      <main>
+        <div class="weather-icon">
+          <img
+            src="icons/unknown.png"
+            alt="weather-icon"
+            width="128"
+            height="128"
+          />
+        </div>
+        <section class="location">
+          <div class="city">-, -</div>
+          <div class="date">- - - -</div>
+        </section>
+        <div class="current">
+          <div class="temp">-<sup>o</sup><span>c</span></div>
+          <div class="weather">-</div>
+          <div class="hi-low">
+            -<sup>o</sup><span>c</span> / -<sup>o</sup><span>c</span>
+          </div>
+        </div>
+      </main>
+      <div class="smash">SMASH IT</div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

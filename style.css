@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("weather7.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-position-x: center;
+  background-position-y: center;
+  background-blend-mode: normal;
+  min-height: 100vh;
+}
+
+.app-cover {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 400px;
+  border-radius: 10px;
+  margin: -12px auto;
+  text-align: center;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.app-cover .title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0 20px 0;
+  padding-top: 10px;
+  text-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 10px;
+  background-color: #2897ff;
+}
+
+header input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 15px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  outline: none;
+
+  color: #313131;
+  font-size: 20px;
+  font-weight: 300px;
+  transition: 0.3s ease-out;
+}
+
+header input:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 5px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: fit-content;
+  background-color: #009ddb;
+}
+
+main .weather-icon {
+  width: 300px;
+  height: 125px;
+}
+
+main .weather-icon img {
+  display: block;
+  margin: 0 auto;
+}
+
+.location .city {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  font-weight: bold;
+}
+
+.current .temp {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 20px 0px;
+  text-shadow: 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.current .temp sup span {
+  font-weight: 200;
+}
+
+.current .weather {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .hi-low {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.smash {
+  font-size: 16px;
+  margin: 20px 0 0 0;
+  font-weight: 700;
+  font-family: Algerian;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 480px) {
+  .app-cover {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+    padding-bottom: 10px;
+    display: block;
+    padding: auto;
+  }
+
+  .app-cover .title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0 5px 0;
+    padding-top: 10px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px 15px;
+    background-color: #2897ff;
+    width: 250px;
+  }
+  header input {
+    width: 200px;
+    max-width: 200px;
+    padding: 5px 7px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    outline: none;
+
+    color: #313131;
+    font-size: 16px;
+    font-weight: 100px;
+    transition: 0.3s ease-out;
+  }
+  main {
+    padding: 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: fit-content;
+    background-color: #009ddb;
+    width: 250px;
+    font-size: 16px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+}

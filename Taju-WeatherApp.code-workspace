@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "WeatherApp",
+      "start_url": "/",
+      "path": "index.html"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "WeatherApp",
+    "git.ignoreLimitWarning": true
+  }
+}
